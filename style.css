@@ -1,0 +1,33 @@
+body {
+    background: azure;
+    font-family: "Montserrat Medium";
+}
+
+.question {
+    max-width: 500px;
+    border:1px solid black;
+    margin: 0px 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+#finish {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 20%;
+    height: 5vh;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: lavenderblush;
+    font-family: "Montserrat SemiBold";
+}
+
+#finish:hover {
+    background: lavender;
+    border: 2px solid black;
+}
+
